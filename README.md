@@ -15,7 +15,7 @@
     <img alt="Repository issues" src="https://img.shields.io/github/issues/raphabarreto/ecoleta">
   </a>
 
-  <a href="https://github.com/raphabarreto/ecoleta/LICENSE.md">
+  <a href="https://github.com/raphabarreto/ecoleta/blob/master/LICENSE.md">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a>
 </p>
