@@ -24,6 +24,10 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "camelcase": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
