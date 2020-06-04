@@ -34,6 +34,11 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "camelcase": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "no-shadow": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "no-alert": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -43,12 +48,7 @@
       }
     ],
     "import/prefer-default-export": "off",
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        "allowExpressions": true
-      }
-    ],
+    "@typescript-eslint/explicit-function-return-type": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
