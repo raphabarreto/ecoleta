@@ -26,7 +26,8 @@
   <a href="#-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar-o-projeto">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -52,13 +53,12 @@ O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresa
 
 ## 🔨 Backend
 <h1 align="center">
-<!-- <a href="https://insomnia.rest/run/?label=Be%20The%20Hero&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fraphabarreto%2Fbe-the-hero%2Fmaster%2Fbackend%2FBeTheHero.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a> --><strong>Ainda em construção</strong>
+<a href="https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fraphabarreto%2Fecoleta%2Fmaster%2Fserver%2FEcoleta.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a><img alt="Ecoleta" title="#delicinha" src=".github/backend.png" />
 </h1>
 
 ## 🌐 Frontend
 <h1 align="center">
-    <!-- <img alt="Be The Hero" title="#delicinha" src=".github/frontend.gif" /> -->
-    <strong>Ainda em construção</strong>
+    <img alt="Ecoleta" title="#delicinha" src=".github/frontend.gif" />
 </h1>
 
 ## 📱 Mobile
@@ -66,6 +66,16 @@ O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresa
     <!-- <img alt="Be The Hero" title="#delicinha" src=".github/mobile.gif" /> -->
     <strong>Ainda em construção</strong>
 </h1>
+
+## 🔥 Instalação
+
+```bash
+$ git clone git@github.com:raphabarreto/ecoleta.git
+$ Navegue até a pasta server e execute o comando:
+$ yarn dev:server
+$ Depois disso, entre na pasta web e execute o comando:
+$ yarn start
+```
 
 
 ## 🤔 Como contribuir
