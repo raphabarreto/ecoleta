@@ -34,6 +34,9 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "camelcase": "off",
+    "global-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react-hooks/exhaustive-deps": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -43,12 +46,7 @@
       }
     ],
     "import/prefer-default-export": "off",
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        "allowExpressions": true
-      }
-    ],
+    "@typescript-eslint/explicit-function-return-type": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
