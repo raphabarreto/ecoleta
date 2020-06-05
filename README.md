@@ -46,8 +46,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
-<!-- - [Jest](https://jestjs.io/)
-- [Celebrate](https://github.com/arb/celebrate) -->
+- [API do IBGE para consumo do endereço](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)
+- [Upload de imagens](react-dropzone)
+- [Leaflet](https://leafletjs.com/examples/quick-start/)
+- [Celebrate](https://github.com/arb/celebrate) 
 
 ## 💻 Projeto
 Projeto desenvolvido durante a <strong>Next Level Week</strong> que tem como objetivo fins ecológicos. 
@@ -55,28 +57,39 @@ O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresa
 
 ## 🔨 Backend
 <h1 align="center">
-<a href="https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fraphabarreto%2Fecoleta%2Fmaster%2Fserver%2FEcoleta.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a><img alt="Ecoleta" title="#delicinha" src=".github/backend.png" />
+<a href="https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fraphabarreto%2Fecoleta%2Fmaster%2Fserver%2FEcoleta.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a><img alt="Ecoleta Back-end" title="#delicinha" src=".github/backend.png" />
 </h1>
 
 ## 🌐 Frontend
 <h1 align="center">
-    <img alt="Ecoleta" title="#delicinha" src=".github/frontend.gif" />
+    <img alt="Ecoleta Front-end" title="#delicinha" src=".github/frontend.gif" />
 </h1>
 
 ## 📱 Mobile
 <h1 align="center">
-    <!-- <img alt="Be The Hero" title="#delicinha" src=".github/mobile.gif" /> -->
+    <img alt="Ecoleta Mobile" title="#delicinha" src=".github/mobile.gif" />
     <strong>Ainda em construção</strong>
 </h1>
 
 ## 🔥 Instalação
 
 ```bash
+# Clone este repositório
 $ git clone git@github.com:raphabarreto/ecoleta.git
-$ Navegue até a pasta server e execute o comando:
+
+# Navegue até a pasta server e execute os seguintes comandos:
+$ yarn knex:migrate
+$ yarn knex:seed
 $ yarn dev:server
-$ Depois disso, entre na pasta web e execute o comando:
+
+# Depois disso, entre na pasta web e execute o comando:
 $ yarn start
+
+# E finalmente, entre na pasta mobile e execunte o comando:
+$ expo start
+
+# Observações:
+- Não esqueça de mudar a baseURL no arquivo api.ts das pastas web e mobile para o ip da sua máquina
 ```
 
 
