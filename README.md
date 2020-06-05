@@ -68,7 +68,6 @@ O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresa
 ## 📱 Mobile
 <h1 align="center">
     <img alt="Ecoleta Mobile" title="#delicinha" src=".github/mobile.gif" />
-    <strong>Ainda em construção</strong>
 </h1>
 
 ## 🔥 Instalação
