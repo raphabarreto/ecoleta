@@ -76,6 +76,9 @@ O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresa
 # Clone este repositório
 $ git clone git@github.com:raphabarreto/ecoleta.git
 
+# Navegue em cada pasta: server / web / mobile e instale as depedências:
+$ yarn install
+
 # Navegue até a pasta server e execute os seguintes comandos:
 $ yarn knex:migrate
 $ yarn knex:seed
